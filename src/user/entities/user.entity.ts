@@ -1,5 +1,5 @@
 import {Entity, Column} from "typeorm"
-import { BaseEntity } from '../config/base.entity';
+import { BaseEntity } from '../../config/base.entity';
 
 @Entity('users')
 export class UserEntity extends BaseEntity{

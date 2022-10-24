@@ -1,6 +1,6 @@
 import * as dotenv from "dotenv";
 import { DataSourceOptions } from "typeorm";
-import { UserEntity } from "../entities/user.entity";
+import { UserEntity } from "../user/entities/user.entity";
 
 export abstract class ConfigServer {
     constructor() {
